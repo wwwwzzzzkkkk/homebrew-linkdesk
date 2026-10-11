@@ -4,11 +4,11 @@ cask "linkdesk" do
 
   url "https://github.com/wwwwzzzzkkkk/LinkDesk/releases/download/v#{version}/LinkDesk-#{version}-macos-arm64.zip"
   name "LinkDesk"
-  desc "USB extended display and tablet audio for Mac and MatePad"
+  desc "USB extended display and tablet audio"
   homepage "https://github.com/wwwwzzzzkkkk/LinkDesk"
 
   depends_on arch: :arm64
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   installer script: {
     executable: "/bin/bash",
