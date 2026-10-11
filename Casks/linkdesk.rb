@@ -1,9 +1,9 @@
 cask "linkdesk" do
-  version "0.6.2"
-  sha256 "1838105b3df96cb9c58c0d7a80f374bf3d41ed707fee1544cd88977dd3bd729a"
+  version "0.6.3"
+  sha256 "818cb6476e96fb626cec5a6e03c11fd84662d4a1ceda6a37fafa447ac7bcc9f2"
 
   url "https://github.com/wwwwzzzzkkkk/LinkDesk/releases/download/v#{version}/LinkDesk-#{version}-macos-arm64.zip"
-  name "LinkDesk"
+  name "连屏 LinkDesk"
   desc "USB extended display and tablet audio"
   homepage "https://github.com/wwwwzzzzkkkk/LinkDesk"
 
