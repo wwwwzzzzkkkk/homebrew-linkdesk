@@ -17,7 +17,11 @@ cask "linkdesk" do
   }
 
   uninstall quit:   "com.zhekuan.linkdesk.mac",
-            delete: "/Applications/LinkDesk.app"
+            script: {
+              executable: "/bin/rm",
+              args:       ["-rf", "/Applications/LinkDesk.app"],
+              sudo:       false,
+            }
 
   caveats <<~EOS
     Install Huawei DevEco Studio and the tablet app first; see the project README.
