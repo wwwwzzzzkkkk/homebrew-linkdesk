@@ -1,6 +1,6 @@
 cask "linkdesk" do
-  version "0.6.3"
-  sha256 "818cb6476e96fb626cec5a6e03c11fd84662d4a1ceda6a37fafa447ac7bcc9f2"
+  version "0.6.4"
+  sha256 "b80eb78f1caad1004c28d587b1013ae5a3b2f6b0795f42fdd43b10224fa8d50c"
 
   url "https://github.com/wwwwzzzzkkkk/LinkDesk/releases/download/v#{version}/LinkDesk-#{version}-macos-arm64.zip"
   name "连屏 LinkDesk"
