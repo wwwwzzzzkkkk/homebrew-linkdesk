@@ -24,7 +24,8 @@ cask "linkdesk" do
             }
 
   caveats <<~EOS
-    Install Huawei DevEco Studio and the tablet app first; see the project README.
+    Install DevEco Studio or restore LinkDesk local USB tools; see the README.
+    The tablet app must be installed separately.
     This release uses a local development certificate and is not notarized.
     Screen recording permission must be enabled in System Settings.
     Audio drivers require a separate administrator-authorized installation:
