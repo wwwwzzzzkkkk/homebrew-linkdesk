@@ -1,10 +1,10 @@
 cask "linkdesk" do
-  version "0.6.4"
-  sha256 "b80eb78f1caad1004c28d587b1013ae5a3b2f6b0795f42fdd43b10224fa8d50c"
+  version "0.7.0"
+  sha256 "c28ffc7fe532a8c4f03a249e1671be47623e06aa370553f31e60b806db7764df"
 
   url "https://github.com/wwwwzzzzkkkk/LinkDesk/releases/download/v#{version}/LinkDesk-#{version}-macos-arm64.zip"
   name "连屏 LinkDesk"
-  desc "USB extended display and tablet audio"
+  desc "Mac and MatePad workspace for display, PDF ink, whiteboard and mirroring"
   homepage "https://github.com/wwwwzzzzkkkk/LinkDesk"
 
   depends_on arch: :arm64
@@ -25,7 +25,7 @@ cask "linkdesk" do
 
   caveats <<~EOS
     Install DevEco Studio or restore LinkDesk local USB tools; see the README.
-    The tablet app must be installed separately.
+    Build and sign the unified HarmonyOS tablet app in DevEco Studio; personal device profiles are not distributed.
     This release uses a local development certificate and is not notarized.
     Screen recording permission must be enabled in System Settings.
     Audio drivers require a separate administrator-authorized installation:
