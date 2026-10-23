@@ -1,10 +1,12 @@
+# frozen_string_literal: true
+
 cask "linkdesk" do
-  version "0.7.0"
-  sha256 "c28ffc7fe532a8c4f03a249e1671be47623e06aa370553f31e60b806db7764df"
+  version "0.7.1"
+  sha256 "692649a3ea17910cbb1c66e107f54c3ef694643349a44a3ed4da3938086a7064"
 
   url "https://github.com/wwwwzzzzkkkk/LinkDesk/releases/download/v#{version}/LinkDesk-#{version}-macos-arm64.zip"
   name "连屏 LinkDesk"
-  desc "Mac and MatePad workspace for display, PDF ink, whiteboard and mirroring"
+  desc "Cross-device workspace for display, PDF ink, whiteboard and mirroring"
   homepage "https://github.com/wwwwzzzzkkkk/LinkDesk"
 
   depends_on arch: :arm64
