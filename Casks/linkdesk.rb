@@ -1,12 +1,12 @@
 # frozen_string_literal: true
 
 cask "linkdesk" do
-  version "1.0.0"
-  sha256 "8797af506dd9eea0cdc464bfb02714e7195f1a183fc02d3d8410ae746feaf891"
+  version "1.1.0"
+  sha256 "52c48e9f41e91906c10b712e0d3b00fcda5914654138e3644dd9e38eb7d27fc0"
 
   url "https://github.com/wwwwzzzzkkkk/LinkDesk/releases/download/v#{version}/LinkDesk-#{version}-macos-arm64.zip"
-  name "连屏 LinkDesk"
-  desc "Cross-device workspace for display, PDF ink, whiteboard and mirroring"
+  name "LinkDesk"
+  desc "Cross-device workspace with remote keyboard, display, PDF ink and mirroring"
   homepage "https://github.com/wwwwzzzzkkkk/LinkDesk"
 
   depends_on arch: :arm64
@@ -30,6 +30,7 @@ cask "linkdesk" do
     Build and sign the unified HarmonyOS tablet app in DevEco Studio; personal device profiles are not distributed.
     This release uses a local development certificate and is not notarized.
     Screen recording permission must be enabled in System Settings.
+    Keyboard input needs Accessibility / Device Control and Data Access permission.
     Audio drivers require a separate administrator-authorized installation:
       python3 "#{staged_path}/LinkDesk/scripts/authorize-audio-driver-install.py"
     Drivers are retained when uninstalling the app.
