@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 cask "linkdesk" do
-  version "1.2.0"
-  sha256 "b71b26e96f3ef95c9c5469016d98909e5585967ef3525502855d918cd95e3d9b"
+  version "1.3.0"
+  sha256 "f6df1c0f813810a649ca54c6a003e55e734201cd36abc54ab674ad74ff68b72f"
 
   url "https://github.com/wwwwzzzzkkkk/LinkDesk/releases/download/v#{version}/LinkDesk-#{version}-macos-arm64.zip"
   name "LinkDesk"
