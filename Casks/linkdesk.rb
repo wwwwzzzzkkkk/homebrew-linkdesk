@@ -1,12 +1,12 @@
 # frozen_string_literal: true
 
 cask "linkdesk" do
-  version "1.4.0"
-  sha256 "1113e80967b48a87ca40631bf246ac218b2e659e01dc0f0fb1efb75820dcca53"
+  version "1.5.0"
+  sha256 "0470b4504c49e9d362f1668d0a83ef4c0fc23b5a09d7ba2210f7f823ba82329b"
 
   url "https://github.com/wwwwzzzzkkkk/LinkDesk/releases/download/v#{version}/LinkDesk-#{version}-macos-arm64.zip"
   name "LinkDesk"
-  desc "Cross-device workspace with remote keyboard, display, PDF ink and mirroring"
+  desc "Cross-device workspace with file sharing, remote input and display"
   homepage "https://github.com/wwwwzzzzkkkk/LinkDesk"
 
   depends_on arch: :arm64
